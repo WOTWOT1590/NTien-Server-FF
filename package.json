@@ -1,0 +1,9 @@
+{
+  "name": "ntien-vercel-server",
+  "version": "1.0.0",
+  "description": "TOUCHCORE-X Vercel Serverless",
+  "main": "index.js",
+  "dependencies": {
+    "node-persist": "^0.0.1"
+  }
+}
