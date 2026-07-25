@@ -1,13 +1,9 @@
 {
-  "name": "ntien-aimlock-server",
-  "version": "2.0.0",
-  "description": "TOUCHCORE-X AIO Secure Server",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "name": "ntien-vercel-server",
+  "version": "1.0.0",
+  "description": "TOUCHCORE-X Vercel Serverless",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.19.2",
     "node-persist": "^0.0.1"
   }
 }
