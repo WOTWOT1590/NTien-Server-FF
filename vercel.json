@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "routes": [
-    { "src": "/api/enroll", "dest": "/api/handler.js" },
-    { "src": "/api/admin/(.*)", "dest": "/api/handler.js" },
-    { "src": "/admin", "dest": "/api/handler.js" }
+  "rewrites": [
+    { "source": "/api/enroll", "destination": "/api/handler.js" },
+    { "source": "/api/admin/(.*)", "destination": "/api/handler.js" },
+    { "source": "/admin", "destination": "/api/handler.js" }
   ]
 }
