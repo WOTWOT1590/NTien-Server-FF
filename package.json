@@ -4,6 +4,6 @@
   "description": "TOUCHCORE-X Vercel Serverless",
   "main": "index.js",
   "dependencies": {
-    "node-persist": "^0.0.1"
+    "node-persist": "^3.1.0"
   }
 }
