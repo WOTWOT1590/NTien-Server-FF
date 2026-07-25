@@ -1,8 +1,8 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/api/enroll", "destination": "/api/handler.js" },
-    { "source": "/api/admin/(.*)", "destination": "/api/handler.js" },
-    { "source": "/admin", "destination": "/api/handler.js" }
+    { "source": "/api/enroll", "destination": "/index.js" },
+    { "source": "/api/admin/(.*)", "destination": "/index.js" },
+    { "source": "/admin", "destination": "/index.js" }
   ]
 }
