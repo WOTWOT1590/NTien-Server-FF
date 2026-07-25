@@ -16,7 +16,7 @@ async function getDB() {
 
 const MASTER_KEY = process.env.ADMIN_KEY || "NMTDEPZAICIUTO11";
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     const db = await getDB();
     const { url, method } = req;
     const query = req.query || {};
